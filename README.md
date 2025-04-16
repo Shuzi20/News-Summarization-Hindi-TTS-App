@@ -1,19 +1,36 @@
-📰#News Summarization & Hindi TTS App
-This Streamlit app fetches the latest English news articles about any company, summarizes them, analyzes sentiment, extracts key topics, and generates a Hindi audio report using text-to-speech (TTS).
+# 📰 News Summarization & Hindi TTS App
 
-🔗#Live Demo
-👉 Try the App on Hugging Face Spaces
+A Streamlit-based web app that fetches the latest news about any company, summarizes it, performs sentiment analysis, extracts key topics, and generates a Hindi audio sentiment report using Text-to-Speech (TTS).
 
-✨#Features
-🔍 Fetches real-time news for any company
-📝 Summarizes headlines and content
-📊 Performs sentiment analysis (Positive, Negative, Neutral)
-🧠 Extracts key topics using KeyBERT
-🗣️ Converts sentiment report into Hindi audio using gTTS
+🔗 **Live Demo on Hugging Face Spaces**  
+👉 [Click here to try it](https://huggingface.co/spaces/Shuzi24/News_Summarization_and_Hindi_TTS_App)
 
-🚀 #Technologies Used
-Streamlit – Web UI
-GNews API – News data source
-VADER – Sentiment analysis
-KeyBERT – Keyword extraction
-gTTS – Hindi Text-to-Speech
+---
+
+## ✨ Features
+
+- 🔍 Real-time news fetch using GNews API
+- 📝 Summary and sentiment analysis of articles (VADER)
+- 🧠 Topic extraction using KeyBERT
+- 🗣️ Hindi TTS audio generation (gTTS)
+- 📊 Comparative sentiment analysis
+
+---
+
+## 🛠️ Tech Stack
+
+- [Streamlit](https://streamlit.io/) – Frontend
+- [GNews API](https://gnews.io/) – News source
+- [VADER Sentiment](https://github.com/cjhutto/vaderSentiment) – Sentiment scoring
+- [KeyBERT](https://github.com/MaartenGr/KeyBERT) – Keyword extraction
+- [gTTS](https://pypi.org/project/gTTS/) – Hindi Text-to-Speech
+
+---
+
+## 📦 Installation
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
