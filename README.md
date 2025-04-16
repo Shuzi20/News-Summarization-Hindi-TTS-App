@@ -27,10 +27,3 @@ A Streamlit-based web app that fetches the latest news about any company, summar
 
 ---
 
-## 📦 Installation
-
-1. **Clone the repository:**
-
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
